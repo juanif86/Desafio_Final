@@ -1,17 +1,114 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import '../components/footer';
- *   |         ^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   scss\style.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import '../components/footer';\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 1:9  root stylesheet";
+@charset "UTF-8";
+/*------ Reseteo de paarametros------------ */
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
+
+/*------ Declaración de Variables------------ */
+:root {
+  --color1: #D83A56;
+  --color2: #FF616D;
+  --color3: #FFEAC9;
+  --color4: #66DE93;
+}
+
+/*-------Estilos Header---------------------- */
+.logo {
+  border-style: none;
+  border-color: var(--color2);
+  height: 120px;
+  width: 280px;
+}
+
+/*------Fin Estilos Header------------------- */
+/* ----------Seccion Home-------- */
+.seccion1 {
+  background-image: url(../Imagenes/portada-globos.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 150px 0px;
+  margin: 10px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.titulo1 {
+  font-size: 100px;
+  color: white;
+  text-shadow: 7px 4px 5px #0f0f0f;
+  text-transform: uppercase;
+}
+
+/* --------Fin Seccion Home---------- */
+.footer {
+  background-color: lightcyan;
+}
+
+.iconos_redes {
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--color3);
+  height: 30px;
+  width: 30px;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+}
+
+.firma {
+  display: flex;
+  justify-content: center;
+}
+
+/* ------Seccion Promociones------------ */
+.fondo {
+  text-align: center;
+  margin: 0px 0px;
+  background-image: linear-gradient(var(--color3), var(--color2));
+}
+
+.promociones2 {
+  text-align: left;
+  margin: 0px 0px;
+}
+
+.titulos {
+  text-align: center;
+  color: #66DE93;
+  background-image: linear-gradient(var(--color3), var(--color2));
+}
+
+/* ------Fin Seccion Promociones------ */
+/* ----------Seccion Contacto---------- */
+.seccion5 {
+  grid-area: seccion5;
+  border-style: solid;
+  border-color: var(--color1);
+  margin: 10px 0px;
+  padding: 5px;
+  background-color: var(--color3);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 180px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin: 10px auto;
+}
+
+.form {
+  justify-content: center;
+  margin: 10px;
+}
+
+/* ----------Fin Seccion Contacto---------- */
+
+/*# sourceMappingURL=style.css.map */

@@ -1,3 +1,15 @@
-$bg-color-general: rgba(230, 214, 238, 0.897);
-$border: 1px solid rgba(191, 158, 207, 0.897);
-$font-home: 44px;
+/*------ Reseteo de paarametros------------ */
+*{
+    margin:0;
+    box-sizing: border-box;
+ }
+ 
+ 
+ 
+ /*------ Declaración de Variables------------ */
+ :root {
+    --color1: #D83A56;
+    --color2: #FF616D;
+    --color3: #FFEAC9;
+    --color4: #66DE93;
+ }

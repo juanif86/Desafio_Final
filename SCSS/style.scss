@@ -1,6 +1,8 @@
-@import '../components/footer';
+@import './base/variables';
+@import './components/header';
+@import './components/home';
+@import './components/footer';
+@import './components/promociones';
+@import './components/contacto';
 
 
-.prueba{
-    color: lightblue; 
-}

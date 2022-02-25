@@ -1,6 +1,23 @@
-@import 'variables';
 
 .footer{
-    background-color: $bg-color-general;
+    background-color: lightcyan;
+    
 }
 
+.iconos_redes{
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--color3);
+    height: 30px;
+    width: 30px;
+ }
+ 
+ .redes{
+    display: flex;
+    justify-content:center;
+ }
+ 
+ .firma{
+    display: flex;
+    justify-content:center;
+ }
