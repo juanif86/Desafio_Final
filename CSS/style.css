@@ -1,24 +1,26 @@
 @charset "UTF-8";
-/*------ Reseteo de paarametros------------ */
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/*------ Declaración de Variables------------ */
-:root {
-  --color1: #D83A56;
-  --color2: #FF616D;
-  --color3: #FFEAC9;
-  --color4: #66DE93;
-}
-
-/*-------Estilos Header---------------------- */
+/*----------Estilos Header---------------------- */
 .logo {
   border-style: none;
   border-color: var(--color2);
   height: 120px;
   width: 280px;
+}
+
+header nav {
+  background-image: linear-gradient(#D3DEDC, #92A9BD);
+}
+header nav ul li {
+  margin: 5px;
+}
+header nav ul li a {
+  size: 40px;
+  color: nht(#D3DEDC, #92A9BD, #7C99AC, #FFEFEF, #9ADCFF, #FFF89A, #FFB2A6, #c8ff00 black, white, cyan, #FF8AAE, 3);
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: cyan;
+  text-decoration: none;
 }
 
 /*------Fin Estilos Header------------------- */
@@ -43,15 +45,14 @@
 
 /* --------Fin Seccion Home---------- */
 .footer {
-  background-color: lightcyan;
+  background-image: linear-gradient(white, cyan);
 }
 
 .iconos_redes {
-  border-style: solid;
-  border-width: 2px;
-  border-color: var(--color3);
+  border-style: none;
   height: 30px;
   width: 30px;
+  margin: 5px;
 }
 
 .redes {
@@ -86,11 +87,10 @@
 /* ----------Seccion Contacto---------- */
 .seccion5 {
   grid-area: seccion5;
-  border-style: solid;
-  border-color: var(--color1);
+  border-style: none;
   margin: 10px 0px;
   padding: 5px;
-  background-color: var(--color3);
+  background-image: linear-gradient(white, cyan);
 }
 
 .form-container {
@@ -110,5 +110,8 @@
 }
 
 /* ----------Fin Seccion Contacto---------- */
+/*----------Sección Aventuras----------*/
+/* From cssbuttons.io by @adamgiebl */
+/*----------Fin Sección Aventuras----------*/
 
 /*# sourceMappingURL=style.css.map */

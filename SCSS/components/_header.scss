@@ -1,4 +1,4 @@
-/*-------Estilos Header---------------------- */
+/*----------Estilos Header---------------------- */
 .logo{
     border-style: none;
     border-color: var(--color2);   
@@ -6,4 +6,26 @@
     width: 280px;
  }
 
- /*------Fin Estilos Header------------------- */
+header{
+    nav{
+        background-image: $bg-color-header;
+        ul{
+            li{
+                margin: 5px;
+                a{
+                    size:40px;
+                    color: nht($colores,3);
+                    text-decoration: none; 
+                        &:hover{
+                            color: cyan;
+                            text-decoration: none;
+                        } 
+
+                }
+            }
+        }
+    }
+}
+
+
+  /*------Fin Estilos Header------------------- */

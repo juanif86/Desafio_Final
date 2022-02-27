@@ -1,18 +1,17 @@
 /* ----------Seccion Contacto---------- */
+@import '../base/variables';
 .seccion5{ 
     grid-area: seccion5;
-    border-style: solid;
-    border-color: var(--color1);
+    border-style: none;  
     margin: 10px 0px;
     padding:  5px;
-    background-color: var(--color3);
+    background-image: $bg-color-section;
  }
  
  .form-container{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    
+    justify-content: flex-end;    
     max-width: 180px;
     border-style: solid;
     border-width: 1px;
@@ -24,4 +23,5 @@
     justify-content: center;
     margin: 10px;
  } 
+
 /* ----------Fin Seccion Contacto---------- */

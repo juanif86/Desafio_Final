@@ -1,15 +1,5 @@
-/*------ Reseteo de paarametros------------ */
-*{
-    margin:0;
-    box-sizing: border-box;
- }
- 
- 
- 
- /*------ Declaración de Variables------------ */
- :root {
-    --color1: #D83A56;
-    --color2: #FF616D;
-    --color3: #FFEAC9;
-    --color4: #66DE93;
- }
+@import '../base/listas';
+$bg-color-header: linear-gradient(nth($colores,1), nth($colores,2));
+$bg-color-footer: linear-gradient(nth($colores,9), nth($colores,10));
+$bg-color-section: linear-gradient(nth($colores,9), nth($colores,10));
+
