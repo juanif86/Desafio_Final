@@ -1,4 +1,9 @@
+@import '../base/variables';
 /*----------Sección Aventuras----------*/
-/* From cssbuttons.io by @adamgiebl */
-
+.bg-color-card1{
+    background-image: $bg-color-card1;
+}
+.card{
+    border-style: none;
+}
 /*----------Fin Sección Aventuras----------*/

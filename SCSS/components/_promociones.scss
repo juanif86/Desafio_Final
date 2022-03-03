@@ -2,12 +2,9 @@
 .fondo{ 
     text-align: center;    
     margin: 0px 0px; 
-    background-image: linear-gradient(var(--color3),var(--color2));
+    background-image: $bg-color-section;
  }
- .promociones2{
-    text-align: left;
-    margin: 0px 0px;
- }
+
  .titulos{
     text-align: center;
     color: #66DE93;

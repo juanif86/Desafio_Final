@@ -25,7 +25,7 @@ header nav ul li a:hover {
 
 /*------Fin Estilos Header------------------- */
 /* ----------Seccion Home-------- */
-.seccion1 {
+.home {
   background-image: url(../Imagenes/portada-globos.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -36,7 +36,7 @@ header nav ul li a:hover {
   text-align: center;
 }
 
-.titulo1 {
+.home-titulo {
   font-size: 100px;
   color: white;
   text-shadow: 7px 4px 5px #0f0f0f;
@@ -69,12 +69,7 @@ header nav ul li a:hover {
 .fondo {
   text-align: center;
   margin: 0px 0px;
-  background-image: linear-gradient(var(--color3), var(--color2));
-}
-
-.promociones2 {
-  text-align: left;
-  margin: 0px 0px;
+  background-image: linear-gradient(#FFF89A, white);
 }
 
 .titulos {
@@ -90,7 +85,7 @@ header nav ul li a:hover {
   border-style: none;
   margin: 10px 0px;
   padding: 5px;
-  background-image: linear-gradient(white, cyan);
+  background-image: linear-gradient(#FFF89A, white);
 }
 
 .form-container {
@@ -111,7 +106,14 @@ header nav ul li a:hover {
 
 /* ----------Fin Seccion Contacto---------- */
 /*----------Sección Aventuras----------*/
-/* From cssbuttons.io by @adamgiebl */
+.bg-color-card1 {
+  background-image: linear-gradient(white, #D3DEDC);
+}
+
+.card {
+  border-style: none;
+}
+
 /*----------Fin Sección Aventuras----------*/
 
 /*# sourceMappingURL=style.css.map */
