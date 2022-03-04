@@ -1,7 +1,7 @@
 @import '../base/variables';
 /*----------Sección Aventuras----------*/
 .bg-color-card1{
-    background-image: $bg-color-card1;
+    @extend %fondo2;
 }
 .card{
     border-style: none;

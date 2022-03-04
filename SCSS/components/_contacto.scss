@@ -1,11 +1,13 @@
 /* ----------Seccion Contacto---------- */
 @import '../base/variables';
+@import '../base/extends';
+
 .seccion5{ 
     grid-area: seccion5;
     border-style: none;  
     margin: 10px 0px;
     padding:  5px;
-    background-image: $bg-color-section;
+    @extend %fondo1;
  }
  
  .form-container{

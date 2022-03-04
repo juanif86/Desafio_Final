@@ -80,12 +80,20 @@ header nav ul li a:hover {
 
 /* ------Fin Seccion Promociones------ */
 /* ----------Seccion Contacto---------- */
+/*Extends - paquete de propiedades que se crean con un placeholder (%)y las propiedades de css*/
+.seccion5 {
+  background-color: lightcoral;
+}
+
+.bg-color-card1 {
+  background-color: #dbcfcf;
+}
+
 .seccion5 {
   grid-area: seccion5;
   border-style: none;
   margin: 10px 0px;
   padding: 5px;
-  background-image: linear-gradient(#FFF89A, white);
 }
 
 .form-container {
@@ -106,14 +114,18 @@ header nav ul li a:hover {
 
 /* ----------Fin Seccion Contacto---------- */
 /*----------Sección Aventuras----------*/
-.bg-color-card1 {
-  background-image: linear-gradient(white, #D3DEDC);
-}
-
 .card {
   border-style: none;
 }
 
 /*----------Fin Sección Aventuras----------*/
+/*Extends - paquete de propiedades que se crean con un placeholder (%)y las propiedades de css*/
+.seccion5 {
+  background-color: lightcoral;
+}
+
+.bg-color-card1 {
+  background-color: #dbcfcf;
+}
 
 /*# sourceMappingURL=style.css.map */
