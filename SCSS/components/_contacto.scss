@@ -1,13 +1,14 @@
-/* ----------Seccion Contacto---------- */
+/* -------------------------Seccion Contacto------------------------ */
 @import '../base/variables';
-@import '../base/extends';
+@import '../base/listas';
 
-.seccion5{ 
-    grid-area: seccion5;
-    border-style: none;  
-    margin: 10px 0px;
-    padding:  5px;
-    @extend %fondo1;
+
+.contacto{ 
+   background-color: $bg-color-contacto;
+   grid-area: seccion5;
+   border-style: none;  
+   margin: 10px 0px;
+   padding:  5px;
  }
  
  .form-container{
@@ -17,7 +18,7 @@
     max-width: 180px;
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: $bordes;
     margin: 10px auto;
  
  }
@@ -26,4 +27,4 @@
     margin: 10px;
  } 
 
-/* ----------Fin Seccion Contacto---------- */
+/* --------------------------Fin Seccion Contacto------------------------------ */

@@ -1,13 +1,15 @@
-/* ------Seccion Promociones------------ */
-.fondo{ 
-    text-align: center;    
-    margin: 0px 0px; 
-    background-image: $bg-color-section;
+/* --------------------------Seccion Promociones--------------------------- */
+ .promociones-titulo{
+   margin: 30px 0px;
  }
 
- .titulos{
-    text-align: center;
-    color: #66DE93;
-    background-image: linear-gradient(var(--color3),var(--color2));
+ .img-promo{
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-bottom: 10px;
+   height: 200px;
+   width: 450px;
  }
- /* ------Fin Seccion Promociones------ */
+
+
+ /* ------------------------Fin Seccion Promociones----------------------- */
